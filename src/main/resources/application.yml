@@ -1,0 +1,13 @@
+server:
+  port: 3000
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Aksaleks
+    username: Aksaleks
+    password: 00229005
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL92Dialect
+    hibernate:
+      ddl-auto: update
